@@ -1,0 +1,30 @@
+*{
+    border: 1px solid black;
+    margin: 10px;
+
+}
+
+form{
+    background: green;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+div{
+    background: skyblue;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+p{
+    background: pink;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 50px;
+    height: 50px;
+}

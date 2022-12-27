@@ -1,0 +1,22 @@
+{
+  "name": "java_script",
+  "version": "1.0.0",
+  "description": "start javaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junseok1925/JAVA_Script.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junseok1925/JAVA_Script/issues"
+  },
+  "homepage": "https://github.com/junseok1925/JAVA_Script#readme",
+  "dependencies": {
+    "@types/jquery": "^3.5.14"
+  }
+}

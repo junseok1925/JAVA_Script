@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="alert-box" id = "ab">
+    알림창
+    <button onclick="showHide('none')">x</button>
+  </div>
+  
+  <!-- 이벤트 속성 어떤 행동을 했을때 실행 on으로 시작함 -->
+  <button onclick="showCh('첫번째내용')">알림창 표시1</button>
+  <button onclick="showCh('두번째내용')">알림창 표시2</button>
+  <button onclick="showCh('세번째내용')">알림창 표시3</button>
+  <!-- js파일에서 만들어진 함수를 불러옴 -->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="style.js"></script>
+</body>
+</html>

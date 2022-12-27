@@ -1,0 +1,16 @@
+.alert-box{
+  background: skyblue;
+  padding: 20xp;
+  border-radius: 10px;
+  margin: 10px;
+
+  display: none;
+}
+
+.box,.box2{
+  background: pink;
+  padding: 10px;
+  margin: 10px;
+
+  display: none;
+}

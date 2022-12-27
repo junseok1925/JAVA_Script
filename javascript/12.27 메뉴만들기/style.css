@@ -1,0 +1,8 @@
+/* list 숨기기 */
+.list-group{
+    display: none;
+}
+/* list 보이기 */
+.show{
+    display: block;
+}
