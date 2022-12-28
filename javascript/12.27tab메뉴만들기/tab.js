@@ -85,6 +85,10 @@ let content = $('.tab-content');
     $('.list').on('click',function(e){
         console.log(e.target);
         //어디를 클릭했는지 알려줌
+        console.log(e.target.dataset.index);
+        //클릭한 버튼의 데이터셋(index)을 찾아줌 ->index의 값을 알려줌
+        //데이터셋은 문자임
+        showTab(e.target.dataset.index);
 
         //e.target과 tab-btn과 같은지
         if(e.target===document.querySelectorAll('.tab-btn')[0]){
