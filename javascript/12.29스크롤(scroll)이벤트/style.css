@@ -1,0 +1,28 @@
+.box{
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  overflow: scroll;
+  margin: auto;
+}
+
+.container{
+  text-align: center;
+}
+
+#chk:disabled + label{
+  color: lightgray;
+}
+
+body{
+  height: 5000px;
+}
+
+.status-bar{
+  width: 0;
+  height: 5px;
+  background-color: red;
+  /* 위에 상단에 고정(스크롤을 내려도 위에 고정) */
+  position: fixed;
+  top: 0;
+}
